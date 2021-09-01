@@ -18,6 +18,7 @@ h1 {
 
 h2 {
   font-size: 12px;
+  font-weight: 200;
 }
 
 p {
@@ -70,15 +71,16 @@ button:hover {
   margin-top: 25px;
 }
 
-.gallery img {
-  height: 400px;
-}
-
-.profile-image {
+#profile-image {
   border-radius: 50%;
   width: 100px;
   margin-top: 20px;
   margin-bottom: 25px;
+}
+
+.gallery img {
+  height: 400px;
+  padding: 5px;
 }
 
 .list-inline {
