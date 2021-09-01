@@ -1,4 +1,5 @@
 body {
+  background-image: url("images/pexels-dom-j-310452.jpg");
   background-color: azure;
   font-family: Helvetica;
   color:black;
@@ -12,17 +13,17 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 h2 {
-  font-size: 12px;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 p {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 a {
@@ -41,7 +42,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 button {
@@ -71,15 +72,15 @@ button:hover {
   margin-top: 25px;
 }
 
-#profile-image {
+.image-circle {
   border-radius: 50%;
-  width: 100px;
+  width: 200px;
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
 .gallery img {
-  height: 400px;
+  height: 350px;
   padding: 5px;
 }
 
