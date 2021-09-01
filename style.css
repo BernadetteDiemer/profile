@@ -71,10 +71,11 @@ button:hover {
 }
 
 .gallery img {
-  width: 240px;
+  height: 400px;
 }
 
 .profile-image {
+  border-radius: 50%;
   width: 100px;
   margin-top: 20px;
   margin-bottom: 25px;
@@ -99,7 +100,7 @@ ul {
   padding-inline-start: 0px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 3000px) {
   .container {
     width: 700px;
   }
@@ -111,6 +112,6 @@ ul {
 }
 @media (max-width: 540px) {
   .container {
-    width: 50px;
+    width: 300px;
   }
 }
